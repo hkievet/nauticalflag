@@ -65,6 +65,11 @@
 	img {
 		width: 100px;
 	}
+	@media only screen and (max-width: 600px) {
+		img {
+			width: 40px;
+		}
+	}
 	img + img {
 		margin-left: 12px;
 	}
